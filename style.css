@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    font-family: Tahoma, sans-serif;
+}
+.header{
+    background-color:#1f2937;
+    height: 50%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar div{
+    margin-right: 220px;
+    margin-left:235px ;
+    margin-top: 10px;
+}
+.navbar-links a{
+    color:#e5e7eb;
+    text-decoration:none;
+    padding: 10px;
+    margin-right: 10px;
+}
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    white-space: nowrap;
+}
+.header-texts div{
+    width: 520px;
+    height: 200px;
+    margin-top: 60px;
+}
+.header-texts {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.placeholder{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-txt{
+    color: #f9faf8;
+    background-color:#1f2937;
+}
+.web-txt p{
+    font-size: 48px; 
+}
+.web-txt small{
+    color: #e5e7eb;
+}
+button{
+   padding: 3px;
+   width: 80px;
+   color: #f9faf8;;
+   background-color: #3882f6;
+   border-radius: 5px;
+   border: none;
+   margin-top: 10px;
+}
+h1{
+    padding: 10px;
+    text-align:center ;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes div{
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin: 10px;
+}
+.boxes div img{
+ width: 110px;
+}
+.random-info{
+    background-color: #f9faf8;
+    height: 300px;
+}
+.div-under-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-under-txt p{
+    margin: 5px  30px 0px 30px;
+}
+.text-section {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style:italic; 
+    font-size: 26px;
+}
+.qoute-author h6{
+    margin-left: 400px; 
+}
+.signup-section{
+    background-color: #f9faf8;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call{
+    background-color:#3882f6;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    padding: 30px;
+    border-radius:5px;
+}
+.call div p{
+    color:#f9faf8;
+    font-size:20px ;
+}
+.call div small{
+    color:#e5e7eb;
+}
+.signup-section button {
+    border: 1px solid #f9faf8;
+}
+.copy-right{
+    background-color: #1f2937;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#f9faf8 ;
+}
